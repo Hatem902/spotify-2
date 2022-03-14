@@ -30,4 +30,7 @@ export const navData = [
     icon: BsPlusLg,
     label: 'Create PlayList',
   },
+  {
+    label: 'Spacer',
+  },
 ]

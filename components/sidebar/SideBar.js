@@ -1,8 +1,10 @@
-import { List, ListItem, VStack } from '@chakra-ui/react'
+import { Button, List, ListItem, VStack } from '@chakra-ui/react'
 import { NavItem } from './NavItem'
 import { navData } from './navData'
-
+import { signOut, useSession } from 'next-auth/react'
 const SideBar = () => {
+  const { data: session, status } = useSession()
+  console.log(session)
   return (
     <VStack
       alignItems="flex-start"
@@ -13,6 +15,7 @@ const SideBar = () => {
       borderRightWidth={2}
       flexShrink={0}
     >
+      <Button onClick={() => signOut()}> Log out</Button>
       {/*  <Logo /> */}
 
       <List width="full" overflowY="auto">
