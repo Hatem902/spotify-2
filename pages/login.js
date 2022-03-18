@@ -1,5 +1,5 @@
 import { getProviders, signIn } from 'next-auth/react'
-import { Button, Center, VStack } from '@chakra-ui/react'
+import { Button, VStack } from '@chakra-ui/react'
 function Login({ providers }) {
   return (
     <VStack mt="40" spacing={16}>

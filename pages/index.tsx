@@ -1,16 +1,19 @@
+
+import Center from '../components/center/Center'
 import type { NextPage } from 'next'
 import { getSession, GetSessionParams } from 'next-auth/react'
-import Head from 'next/head'
-import Image from 'next/image'
 import SideBar from '../components/sidebar/SideBar'
+import { HStack } from '@chakra-ui/react'
+import Player from '../components/Player/Player'
 
 const Home: NextPage = () => {
   return (
     <>
+      <HStack spacing={0} w='full' flex={1} overflow='hidden'>
       <SideBar/>
-      
-      {/* center */}
-      {/* player */}
+        <Center />
+      </HStack>
+      <Player/>
    </>
   )
 }
