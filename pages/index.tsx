@@ -5,10 +5,15 @@ import { getSession, GetSessionParams } from 'next-auth/react'
 import SideBar from '../components/sidebar/SideBar'
 import { HStack } from '@chakra-ui/react'
 import Player from '../components/Player/Player'
+import Head from 'next/head'
 
 const Home: NextPage = () => {
   return (
     <>
+      <Head>
+        <title>Spotify 2.0</title>
+        <meta name='description' content='Spotify clone using Nextjs, Chakra UI, Middleware, Spotify API, NextAuth, Recoil ' />
+      </Head>
       <HStack spacing={0} w='full' flex={1} overflow='hidden'>
       <SideBar/>
         <Center />
