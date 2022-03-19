@@ -1,4 +1,4 @@
-Web-app link : spotify-2-bqm133w1y-hatem902.vercel.app
+Web-app link : https://spotify-2-theta.vercel.app
 
 if you want to run the code locally, make sure to make an .env.local file under the spotify-2-0 directory and add in these global variables :
 
