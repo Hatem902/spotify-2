@@ -1,4 +1,4 @@
-I fully designed and built this Spotify web-app with Next.Js, using the Spotify API.
+I fully designed and built this Spotify 2.0 web-app with Next.Js, using the Spotify API.
 
 • Succinct preview video of this app: https://youtu.be/Mb2SNHR5uNs
 
