@@ -6,7 +6,7 @@ I fully designed and built this Spotify web-app with Next.Js, using the Spotify 
 
 • The Spotify API (amazing API by the way) : https://developer.spotify.com/documentation/web-api/
 
-• Shots of my own Design of Spotify 2.0:
+• Shots of my Own Design of Spotify 2.0:
 https://drive.google.com/drive/folders/1OvYzlXyMdV1DWCspP__mR4-7osbg7iUd?usp=sharing
 
 • Live demo link: https://spotify-2-theta.vercel.app/ 
@@ -28,7 +28,7 @@ The different techniques I Implemented throughout this build:
 • Utilizing Chakra UI and Framer Motion to make the app look clean and gorgeous (Clean Animations & Responsiveness).
 
 
-• If you want to run the code locally, make sure to make an .env.local file under the spotify-2-0 directory and add in these global variables :
+If you want to run the code locally, make sure to make an .env.local file under the spotify-2-0 directory and add in these global variables :
 
 NEXTAUTH_URL= (localhost link : http://localhost:3000 )
 NEXT_PUBLIC_CLIENT_SECRET= (your client_secret)
