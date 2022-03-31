@@ -9,6 +9,11 @@ I fully designed and built this Spotify 2.0 web-app with Next.Js, using the Spot
 • Shots of my Own Design of Spotify 2.0:
 https://drive.google.com/drive/folders/1OvYzlXyMdV1DWCspP__mR4-7osbg7iUd?usp=sharing
 
+• The latency in Playback & Volume control in Spotify 2.0 surpasses that of the Real Spotify by only 3% (almost as fast as Real Spotify). This delay is due to Request Debouncing which drastically reduces the maximum number of API calls in a short period of time: a necessary technique to prevent getting Timed-out by the Spotify API.
+
+
+• The percentage of bugged Playback is as low as 0.2% (Most of these bugs are related to the Spotify API itself).
+
 • Live demo link: https://spotify-2-theta.vercel.app/ 
   N.B: Spotify made a guideline such that you can only link one account at a time to your Spotify build that uses the Spotify API. So only my account can be logged in. I can change the linked account to another account (it must be a Premium Spotify account). And if I do, then the newly linked account can log-in to my app but mine no longer can. Spotify made this guideline to prevent developers from potentially creating harmful competition to Spotify using the Spotify API.
 
