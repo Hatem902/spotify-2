@@ -1,6 +1,34 @@
-Web-app link : https://spotify-2-theta.vercel.app
+I fully designed and built this Spotify web-app with Next.Js, using the Spotify API.
 
-if you want to run the code locally, make sure to make an .env.local file under the spotify-2-0 directory and add in these global variables :
+• Succinct preview video of this app: https://youtu.be/Mb2SNHR5uNs
+
+• Extended video that showcases extensively all the different Features (Authentication, Responsiveness and more …): https://youtu.be/mwd5kUdRO6s
+
+• The Spotify API (amazing API by the way) : https://developer.spotify.com/documentation/web-api/
+
+• Shots of my own Design of Spotify 2.0:
+https://drive.google.com/drive/folders/1OvYzlXyMdV1DWCspP__mR4-7osbg7iUd?usp=sharing
+
+• Live demo link: https://spotify-2-theta.vercel.app/ 
+  N.B: Spotify made a guideline such that you can only link one account at a time to your Spotify build that uses the Spotify API. So only my account can be logged in. I can change the linked account to another account (it must be a Premium Spotify account). And if I do, then the newly linked account can log-in to my app but mine no longer can. Spotify made this guideline to prevent developers from potentially creating harmful competition to Spotify using the Spotify API.
+
+
+The different techniques I Implemented throughout this build:
+
+• Fetching Spotify Playlists + Controlling Music playback with the Spotify API + debouncing requests.
+
+• User authentication with Real Spotify & Next-Auth to persist user's logged-in state, using Access & Refresh OAuth JSON Web Tokens (JWT) + Authenticated user access with the Next.js 12 Middleware.
+
+• Utilizing Custom Hooks alongside the React useState & useEffect hooks. 
+
+• Utilizing Environment Variables both locally and post-deployment on Vercel.
+
+• Managing global states with Recoil.
+
+• Utilizing Chakra UI and Framer Motion to make the app look clean and gorgeous (Clean Animations & Responsiveness).
+
+
+• If you want to run the code locally, make sure to make an .env.local file under the spotify-2-0 directory and add in these global variables :
 
 NEXTAUTH_URL= (localhost link : http://localhost:3000 )
 NEXT_PUBLIC_CLIENT_SECRET= (your client_secret)
