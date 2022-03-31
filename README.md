@@ -1,8 +1,8 @@
 I fully designed and built this Spotify 2.0 web-app with Next.Js, using the Spotify API.
 
-• Succinct preview video of this app: https://youtu.be/Mb2SNHR5uNs
+• Succinct demo-video of this app: https://youtu.be/Mb2SNHR5uNs
 
-• Extended video that showcases extensively all the different Features (Authentication, Responsiveness and more …): https://youtu.be/mwd5kUdRO6s
+• Comprehensive demo-video that showcases extensively all the different Features (Authentication, Responsiveness and more …): https://youtu.be/mwd5kUdRO6s
 
 • The Spotify API (amazing API by the way) : https://developer.spotify.com/documentation/web-api/
 
