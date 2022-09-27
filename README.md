@@ -1,3 +1,5 @@
+I fully designed and developed a Spotify web-app with Next.Js, using the Spotify API
+
 ## The different techniques Implemented throughout this build
 
 • Fetching Spotify Playlists + Controlling Music playback with the Spotify API + debouncing requests.
