@@ -2,7 +2,7 @@ I fully designed and developed a Spotify web-app with Next.Js, using the Spotify
 
 ## The different techniques Implemented throughout this build
 
-• Fetching Spotify Playlists + Controlling Music playback with the Spotify API + debouncing requests.
+• Fetching Spotify Playlists + Controlling Music playback with the Spotify API + Debouncing requests.
 
 • User authentication with Real Spotify & Next-Auth to persist user's logged-in state, using Access & Refresh OAuth JSON Web Tokens (JWT) + Authenticated user access with the Next.js 12 Middleware.
 
@@ -12,7 +12,7 @@ I fully designed and developed a Spotify web-app with Next.Js, using the Spotify
 
 • Managing global states with Recoil.
 
-• Utilizing Chakra UI and Framer Motion to make the app looks clean and gorgeous (Clean Animations & Responsiveness).
+• Framer Motion for clean animations.
 
 ---------------------------------------------------------------
 
