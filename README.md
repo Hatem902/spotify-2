@@ -1,5 +1,8 @@
 ## Spotify 2.0
-I fully designed and developed a Spotify web-app with Next.Js, using the Spotify API
+A redesigned, feature-packed Spotify web app with Spotify SSO authentication that fetches your playlists from your real Spotify account and provides you with a redesigned full Spotify experience, from playing playlists and tweaking volume levels to skipping to next or previous tracks, choosing a track, controlling music playback and more.
+
+## Tech
+- Next.js · [Official Spotify API](https://developer.spotify.com/documentation/web-api/) · Recoil · NextAuth.js · OAuth & JWT
 
 ## The different techniques Implemented throughout this build
 
