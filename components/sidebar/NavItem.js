@@ -1,12 +1,12 @@
-import NextLink from 'next/link'
-import { Heading, Icon, Text, HStack, Box, Link } from '@chakra-ui/react'
-import { signOut } from 'next-auth/react'
+import NextLink from 'next/link';
+import { Heading, Icon, Text, HStack, Box, Link } from '@chakra-ui/react';
+import { signOut } from 'next-auth/react';
 
 export const NavItem = ({ isActive, item, isLogOut }) => {
-  const { label } = item
+  const { label } = item;
 
   if (item.type === 'link') {
-    const { icon } = item
+    const { icon } = item;
 
     return (
       <NextLink href="#" passHref>
@@ -17,7 +17,7 @@ export const NavItem = ({ isActive, item, isLogOut }) => {
             justify="flex-start"
             /*  height={{ base: 10, '2xl': 14 }} */
             height={10}
-            transition="ease-out"
+            transition="ease"
             transitionProperty="background"
             transitionDuration="normal"
             _hover={{
@@ -45,7 +45,7 @@ export const NavItem = ({ isActive, item, isLogOut }) => {
           </HStack>
         </Link>
       </NextLink>
-    )
+    );
   }
 
   return (
@@ -62,5 +62,5 @@ export const NavItem = ({ isActive, item, isLogOut }) => {
     >
       {label}
     </Heading>
-  )
-}
+  );
+};
