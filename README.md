@@ -6,7 +6,7 @@
 
 ## Features
 
-• Fetching Spotify playlists, controlling music playback with the Spotify API, and debouncing requests.
+• Fetching your real spotify account's playlists, controlling music playback with the Spotify API, and debouncing requests.
 
 • Intuitive, clean design system.
 
