@@ -1,10 +1,18 @@
-import { Box } from '@chakra-ui/layout'
+import { VStack } from '@chakra-ui/layout';
 const Layout = ({ children }) => {
   return (
-    <Box height="100vh" bg="black" width="full" overflow="hidden">
-      {children}
-    </Box>
-  )
-}
+    <div>
+      <VStack
+        overflow="hidden"
+        height="100vh"
+        bg="black"
+        width="full"
+        spacing={0}
+      >
+        {children}
+      </VStack>
+    </div>
+  );
+};
 
-export default Layout
+export default Layout;
