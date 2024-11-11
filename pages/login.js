@@ -1,31 +1,42 @@
-import { getProviders, signIn } from 'next-auth/react'
-import { Button, Center, VStack } from '@chakra-ui/react'
+import { getProviders, signIn } from 'next-auth/react';
+import { Button, Image, VStack } from '@chakra-ui/react';
+import Head from 'next/head';
 function Login({ providers }) {
   return (
-    <VStack mt="40" spacing={8}>
-      <img src="https://img.icons8.com/color/240/000000/spotify--v1.png" />
-      {Object.values(providers).map((provider) => (
-        <div key={provider.name}>
+    <>
+      <Head>
+        <title>Login to Spotify</title>
+        <meta
+          name="description"
+          content="Spotify Loging page : Authentification with NextAuth , nextjs Middleware "
+        />
+      </Head>
+      <VStack mt="40" spacing={16}>
+        <Image src="https://img.icons8.com/ios-filled/250/ffffff/spotify.png" />
+        {Object.values(providers).map((provider) => (
           <Button
-            bg="green.light"
+            size="lg"
+            key={provider.name}
+            bg="gray.dark"
             color="whiteAlpha.900"
             _hover={{
-              background: 'gray.dark',
+              background: 'gray.light',
             }}
+            onClick={() => signIn(provider.id, { callbackUrl: '/' })}
           >
             Login with {provider.name}
           </Button>
-        </div>
-      ))}
-    </VStack>
-  )
+        ))}
+      </VStack>
+    </>
+  );
 }
-export default Login
+export default Login;
 export async function getServerSideProps() {
-  const providers = await getProviders()
+  const providers = await getProviders();
   return {
     props: {
       providers,
     },
-  }
+  };
 }
