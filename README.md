@@ -1,27 +1,38 @@
-# Next.js + Tailwind CSS Example
+## Spotify 2.0
+• A redesigned Spotify experience with SSO authentication that fetches your playlists from your real Spotify account. From playing playlists and tweaking volume levels to skipping to next or previous tracks, choosing a track, and controlling music playback.
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## Tech
+- Next.js, [Official Spotify API](https://developer.spotify.com/documentation/web-api/), NextAuth, OAuth & JWT.
 
-## Preview
+## Features
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+• Fetching your real spotify account's playlists, controlling music playback with the Spotify API, and debouncing requests.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+• Intuitive, clean design system.
 
-## Deploy your own
+• User authentication with Real Spotify and Next-Auth to persist user's logged-in state, using Access & Refresh OAuth JWT and Next.js 12 Middleware.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+• Framer Motion for clean animations.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+---------------------------------------------------------------
 
-## How to use
+## Demo
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+• [Succinct demo-video](https://youtu.be/Mb2SNHR5uNs) :
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+[![Succinct demo-video link](https://img.youtube.com/vi/Mb2SNHR5uNs/maxresdefault.jpg)](https://www.youtube.com/watch?v=Mb2SNHR5uNs)
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+
+
+• [Comprehensive demo-video](https://youtu.be/mwd5kUdRO6s)
+
+• [Shots of my Own Design of Spotify 2.0:](https://www.behance.net/gallery/157371967/My-Design-of-Spotify)
+
+[![Succinct demo-video link](https://user-images.githubusercontent.com/81896805/229578491-3bd35cb7-33c5-4f8d-b66e-797d7672beee.png)](https://www.behance.net/gallery/157371967/My-Design-of-Spotify)
+
+
+• [The Spotify API](https://developer.spotify.com/documentation/web-api/)
+
+• [Website](https://spotify-2-theta.vercel.app/)
+  Note: Spotify's API guidelines allow only one linked account at a time. I can switch to another Premium Spotify account, granting it access to my app while revoking access for my original account. This measure was put in place by spotify to prevent developers from creating harmful competition to their product using their own API.
