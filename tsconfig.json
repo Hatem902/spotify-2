@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/sidebar/SideBar.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/sidebar/SideBar.js", "components/Image/index.js", "components/song-info.js/Disc.js", "components/song-info.js/Player.js"],
   "exclude": ["node_modules"]
 }
